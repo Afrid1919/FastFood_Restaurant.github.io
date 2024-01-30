@@ -14,6 +14,7 @@ public class Restaurant {
 	static Scanner sc = new Scanner(System.in);
 	
 	void pizza_quantity() {
+		//Asking user to input Pizza's quantites
 		System.out.print("If you want Pizza PRESS 1:-");
 		p=sc.nextInt();
 		
@@ -35,6 +36,7 @@ public class Restaurant {
 	
 	
 	void burger_quantity() {
+		//Asking user to input Burger quantites
 		System.out.print("If you want Burger PRESS 1:-");
 		b=sc.nextInt();
 		
@@ -54,11 +56,12 @@ public class Restaurant {
 }
 	
 	void French_Fries_quantity() {
+		//Asking user to input French Fries quantites
 		System.out.print("If you want French Fries PRESS 1:-");
 		f=sc.nextInt();
 		
 		if(f==1) {
-			System.out.print("How many French Fries pack you want?:");
+			System.out.print("How many French Fries packs you want?:");
 			French_Fries = sc.nextInt();
 			
 			price3=( French_Fries*30);
@@ -74,6 +77,7 @@ public class Restaurant {
 	
 	
 	void ColdDrink_quantity() {
+		//Asking user to input coldDrinks quantites
 		System.out.print("If you want Cold_Drink PRESS 1:-");
 		c=sc.nextInt();
 		
@@ -94,7 +98,9 @@ public class Restaurant {
 }
 	
 void total_price() {
-		
+
+	      //To calculate total amount of all items(reciept)
+	
 		TotalPrice=(price1+price2+price3+price4);
 		System.out.println();
 		System.out.println("\t-----------------------------------------------");
@@ -161,20 +167,6 @@ void total_price() {
 		}
 		
 		}
-		
-		
 	}
-	
 }
 
-
-
-//if(ch==1) {
-//	 rs.pizza_quantity();
-//}else if(ch==2) {
-//rs.burger_quantity();
-//}else if(ch==3) {
-//rs.French_Fries_quantity();
-//}else if(ch==4) {
-//rs.ColdDrink_quantity();
-//}
