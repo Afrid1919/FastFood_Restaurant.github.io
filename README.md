@@ -1,2 +1,2 @@
 # FastFood_Restaurant
-To demonstrate restaurant's functionality by using java oops concept
+To demonstrate restaurant's functionality by using core java concepts.
