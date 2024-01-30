@@ -14,11 +14,12 @@ public class Restaurant {
 	static Scanner sc = new Scanner(System.in);
 	
 	void pizza_quantity() {
-		//Asking user to input Pizza's quantites
+		
 		System.out.print("If you want Pizza PRESS 1:-");
 		p=sc.nextInt();
 		
 		if(p==1) {
+			//Asking user to input Pizza's quantites
 			System.out.print("How many Pizza's you want?:");
 			Pizza = sc.nextInt();
 			
@@ -36,11 +37,12 @@ public class Restaurant {
 	
 	
 	void burger_quantity() {
-		//Asking user to input Burger quantites
+		
 		System.out.print("If you want Burger PRESS 1:-");
 		b=sc.nextInt();
 		
 		if(b==1) {
+			//Asking user to input Burger quantites
 			System.out.print("How many Burger's you want?:");
 			 Burger = sc.nextInt();
 			
@@ -56,11 +58,12 @@ public class Restaurant {
 }
 	
 	void French_Fries_quantity() {
-		//Asking user to input French Fries quantites
+		
 		System.out.print("If you want French Fries PRESS 1:-");
 		f=sc.nextInt();
 		
 		if(f==1) {
+			//Asking user to input French Fries quantites
 			System.out.print("How many French Fries packs you want?:");
 			French_Fries = sc.nextInt();
 			
@@ -77,11 +80,12 @@ public class Restaurant {
 	
 	
 	void ColdDrink_quantity() {
-		//Asking user to input coldDrinks quantites
+		
 		System.out.print("If you want Cold_Drink PRESS 1:-");
 		c=sc.nextInt();
 		
 		if(c==1) {
+			//Asking user to input coldDrinks quantites
 			System.out.print("How many Cold_Drink's you want?:");
 			Cold_Drink = sc.nextInt();
 			
@@ -128,7 +132,8 @@ void total_price() {
 		System.out.print("\nPlease Enter Your choice here:-");
 		
 		Restaurant rs = new Restaurant();
-		
+
+		//For loop used to taking number of items
 		for(int i=1;i<=5;i++) {
 			int ch=sc.nextInt();
 		
